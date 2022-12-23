@@ -87,7 +87,7 @@ const handleSubmit = async (e) => {
     loader(messageDiv)
 
     // fetch data from server -> bot's response
-    const response = await fetch('https://nova-l59o.onrender.com', {
+    const response = await fetch('https://nova-l59o.onrender.com/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
